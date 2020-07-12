@@ -1,0 +1,18 @@
+body{
+    background-color: #333;
+}
+.box{
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    animation-name: thebox;
+    animation-duration: 5s;
+}
+@keyframes thebox {
+0% {background-color: #fff;top:0px;left:0px;}
+25% {background-color: rgb(184, 79, 79);top:300px;left:300px;}
+50% {background-color: rgb(102, 10, 10);top:0px;left:300px;}
+75% {background-color: rgb(75, 1, 1);top:300px;left:0px;}
+100% {background-color: #000;top:0px;left:0px;}
+}
